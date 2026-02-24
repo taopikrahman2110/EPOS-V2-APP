@@ -1,0 +1,3 @@
+if (react-native eject !== false){
+    "yarn install"
+}

@@ -1,0 +1,112 @@
+/* eslint-disable prettier/prettier */
+import { StyleSheet } from "react-native";
+
+const styles = StyleSheet.create({
+  pictureContainer: {
+    flex: 1,
+    position: "relative",
+    alignItems: "center",
+    paddingTop: 16,
+    paddingLeft: 20,
+    paddingRight: 20,
+    paddingBottom: 16,
+    elevation: 6,
+    backgroundColor: "#fff",
+  },
+  TabRowContainer: {
+    marginTop: 0,
+    marginBottom: 20,
+    paddingRight: 0,
+    paddingLeft: 0,
+    flexDirection: "row",
+    paddingTop: 10,
+    paddingBottom: 0,
+  },
+  formContainer: {
+    marginTop: 40,
+    padding: 40,
+  },
+  label: {
+    marginBottom: 6,
+    color: "#000",
+  },
+  input: {
+    marginBottom: 20,
+    borderWidth: 1,
+    borderColor: "#000",
+    borderRadius: 10,
+    paddingLeft: 10,
+    paddingRight: 10,
+    paddingTop: 6,
+    paddingBottom: 6,
+  },
+  version: {
+    marginTop: 30,
+    justifyContent: "center",
+    flexDirection: "row",
+    flexWrap: "wrap",
+  },
+  registerTextView: {
+    marginTop: 15,
+    justifyContent: "center",
+    flexDirection: "row",
+    flexWrap: "wrap",
+  },
+  registerHyperlink: {
+    // color:'rgb(8,194,223)',
+    color: "#255a8e",
+    fontWeight: "bold",
+    // textDecorationLine: 'underline',
+  },
+  inputContainer1: {
+    borderColor: "#AAAAAA",
+    backgroundColor: "#fff",
+    borderRadius: 10,
+    borderWidth: 1,
+    marginBottom: 20,
+    flexDirection: "row",
+    alignItems: "center",
+    shadowColor: "#000",
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.25,
+    shadowRadius: 3.84,
+    elevation: 5,
+  },
+  inputIcon: {
+    width: 20,
+    height: 20,
+    marginLeft: 15,
+    justifyContent: "center",
+    resizeMode: "contain",
+  },
+  inputs: {
+    height: 45,
+    marginLeft: 16,
+    color: "#000",
+    borderBottomColor: "#FFFFFF",
+    flex: 1,
+    marginTop: 5,
+  },
+  visibilityBtn: {
+    position: "absolute",
+    right: 4,
+    padding: 8,
+  },
+  btnImage: {
+    width: 20,
+    height: 20,
+  },
+  buttonstyle: {
+    backgroundColor: "rgb(8,194,223)",
+    justifyContent: "center",
+    alignContent: "center",
+    alignItems: "center",
+    height: 50,
+    borderRadius: 25,
+    marginTop: 20,
+  },
+});
+export default styles;
